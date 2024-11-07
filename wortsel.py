@@ -48,7 +48,7 @@ while(guess_num < 7):
     guess = input(f"\nGuess {guess_num}: ").upper()
 
     #check if guess is the correct size
-    if len(guess) != word_size:
+    if len(guess) != int(word_size):
         print(f"\nGuess must be {word_size} letters long")
         continue  
 
